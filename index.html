@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>
+        Boundary Validation
+    </title>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIyossflgMJZjCVmVQN24CtXUOlAVRXYg&callback=initMap&libraries=&v=weekly"></script>
+
+    <script src="index.js"></script>
+
+</head>
+
+<body onload="onLoad();">
+    <div class="side-menu">
+    <div class="import">Import As</div>
+    <div class="button" onclick="switchState();">Points</div>
+    <div class="button" onclick="switchState(LINES);">Lines</div>
+    <div class="button" onclick="switchState(POLYGON);">Polygon</div>
+    <input type="file" id="csvInput" style="display: none;" accept=".csv, text/csv"/>
+    <label for="csvInput" id="fA" style="display:block;" onclick="document.getElementById('csvInput').value=null;" class="ibutton">Import</label>
+    <div class="dbutton" onclick="downloadFile()">Download</div>
+    <div class="cbutton" onclick="window.close();">Close</div>
+    </div>
+    <div id="map"></div>
+</body>
+
+</html>

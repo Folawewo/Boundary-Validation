@@ -1,0 +1,87 @@
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #c3d0d8;
+    font-family: Roboto;
+    display: flex;
+    text-align: center;
+}
+
+.import {
+    color: #3a4753;
+    padding: 12px 8px;
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    border: 0px solid #6856fa;
+    background: #6856fa;
+    border-radius: 3px;
+    margin: 0px 8px 8px 0px;
+    padding: 10px 24px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.ibutton {
+    position: absolute;
+    color: white;
+    border: 0px solid #6856fa;
+    background: #6856fa;
+    border-radius: 3px;
+    margin: 0px 8px 8px 0px;
+    padding: 10px 24px;
+    user-select: none;
+    cursor: pointer;
+    width: 53px;
+    bottom: 100px;
+    
+}
+
+.dbutton {
+    position: absolute;
+    color: white;
+    border: 0px solid #6856fa;
+    background: #6856fa;
+    border-radius: 3px;
+    margin: 0px 8px 8px 0px;
+    padding: 10px 24px;
+    user-select: none;
+    cursor: pointer;
+    width: 53px;
+    bottom: 55px;
+    
+}
+
+.cbutton {
+    position: absolute;
+     color: white;
+    border: 0px solid #6856fa;
+    background: #d3445f;;
+    border-radius: 3px;
+    margin: 0px 8px 8px 0px;
+    padding: 10px 24px;
+    user-select: none;
+    cursor: pointer;
+    width: 53px;
+    bottom: 10px;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+}
+
+#map {
+    flex: 1;
+    background: #fefefe;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
